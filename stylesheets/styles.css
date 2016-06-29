@@ -816,6 +816,12 @@ section #title .credits {
 section #title .credits.left {
   float: left;
 }
+
+section #title .credits.mid {
+	float: left;
+	margin-left: 3%;
+}
+
 section #title .credits.right {
   float: right;
 }
