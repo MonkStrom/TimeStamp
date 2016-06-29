@@ -1,0 +1,41 @@
+#banner{
+	margin: auto;
+	text-align: center;
+	color: #FF0000
+}
+
+.stampwrap {
+	text-align: center;
+	margin: 10px auto;
+}
+
+#total {
+	display: inline;
+}
+
+#timetable, th {
+	font-family: 'Roboto', sans-seriff;
+	font-size: medium;
+	border: 1px solid black;
+	padding: 3px;
+	margin: auto;
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: right;
+}
+
+.notbutton {
+	font-family: 'Roboto', sans-seriff;
+	font-size: small;
+	text-decoration: none; 
+	background-color: #FF0000;
+	border-style: ridge;
+	border-width: 3px;
+	border-color: #FF0000;
+	color: #000000;
+	padding: 0px 6px;
+	box-shadow: 5px 5px 5px grey;
+}
