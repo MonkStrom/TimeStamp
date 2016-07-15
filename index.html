@@ -39,8 +39,17 @@
 					<img src="./images/stamp.png"></img>
 					
 					<div class="stampwrap">
+					<!--
 						<a class="notbutton" style="margin-right: 5%;" href="#" onclick="stamp()">Time Stamp</a>
 						<a class="notbutton" style="margin-left: 5%;" download="timestamp.csv" href="#" onclick="return ExcellentExport.csv(this, 'timetable');">Export to CSV</a>
+					-->
+					<a style="margin-right: 5%;" onclick="stamp();">
+						<img class="imgbtn" src="./images/stampbtn.png" title="Stamp Button" alt="Stamp Current Time To Table">
+					</a>
+					
+					<a style="margin-left: 5%;" download="timestamp.csv" onclick="return ExcellentExport.csv(this, 'timetable');">
+						<img class="imgbtn" src="./images/exportbtn.png" title="Export Button" alt="Export To CSV">
+					</a>
 					</div>
 				
 				<table id="timetable">

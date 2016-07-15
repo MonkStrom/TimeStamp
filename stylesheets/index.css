@@ -27,6 +27,13 @@ td {
 	text-align: right;
 }
 
+.imgbtn {
+	text-decoration: none;
+	padding: 0px 6px;
+	width: 10%;
+	height: 10%;
+}
+
 .notbutton {
 	font-family: 'Roboto', sans-seriff;
 	font-size: small;
