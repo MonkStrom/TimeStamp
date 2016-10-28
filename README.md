@@ -1,7 +1,5 @@
 # TimeStamp
 
-Time Stamp is a mini-project I started during the Summer of 2016.
-
 Record the times of events that occur too many times for you to track.
 
 ### Current Features
