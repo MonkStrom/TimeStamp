@@ -43,30 +43,39 @@
 						<a class="notbutton" style="margin-right: 5%;" href="#" onclick="stamp()">Time Stamp</a>
 						<a class="notbutton" style="margin-left: 5%;" download="timestamp.csv" href="#" onclick="return ExcellentExport.csv(this, 'timetable');">Export to CSV</a>
 					-->
-					<a style="margin-right: 5%;" onclick="stamp();">
-						<img class="imgbtn" src="./images/stampbtn.png" title="Stamp Button" alt="Stamp Current Time To Table">
-					</a>
+						<a style="margin-right: 5%;" onclick="stamp();">
+							<img class="imgbtn" src="./images/stampbtn.png" title="Stamp Button" alt="Stamp Current Time To Table">
+						</a>
 					
-					<a style="margin-left: 5%;" download="timestamp.csv" onclick="return ExcellentExport.csv(this, 'timetable');">
-						<img class="imgbtn" src="./images/exportbtn.png" title="Export Button" alt="Export To CSV">
-					</a>
+						<a style="margin-left: 5%;" download="timestamp.csv" onclick="return ExcellentExport.csv(this, 'timetable');">
+							<img class="imgbtn" src="./images/exportbtn.png" title="Export Button" alt="Export To CSV">
+						</a>
 					</div>
-				
-				<table id="timetable">
-					<tr>
-						<th>Stamp #</th>
-						<th>Date</th>
-						<th>Time</th>
-						<th>Time Since Last</th>
-					</tr>
-				</table>
-				
+					
+					<div id="timetable">
+						<table>
+							<thead>
+								<tr>
+									<th>Stamp #</th>
+									<th>Date</th>
+									<th>Time</th>
+									<th>Time Since Last</th>
+								</tr>
+							</thead>
+							
+							<tbody id="timebody">
+							</tbody>
+						</table>
+					</div>
+					
+					<div id="credits">
 					<br>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/MonkStrom">MonkStrom</a></span>
           <span class="credits mid">ExcellentExport.js by <a href="https://github.com/jmaister/excellentexport">Jordi Burgos</a></span>
 					<span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+					</div>
+				</div>
 				
 			</section>
     </div>
